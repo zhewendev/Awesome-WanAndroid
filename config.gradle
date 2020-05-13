@@ -9,11 +9,11 @@ ext {
             renderscriptTargetApi   : 24
     ]
 
-    version = [
-
-    ]
-
     dependencies = [
+            // rx
+            rxjava                  : "io.reactivex.rxjava3:rxjava:3.0.2",
+            rxandroid               : "io.reactivex.rxjava3:rxandroid:3.0.0"
+
 
     ]
 
